@@ -1,30 +1,31 @@
 body {
-	background: #00ff00 url(background-2.png)
+	color:white
 		}
 div {
+	background-color:#ff00ff
+		}
+a {
+	color:pink;
+	font-size:20px
+		}
+table {
+	color:lime;
+	border-color:purple;
+	border-width:5px
+		}
+ul {
 	font-size:50px;
-	width:150px;
-	margin-right: 10px;
-	text-align: center;
-	border-radius: 30px
+	color:#ffff77
 		}
-img {
-	float:right;
-	height:100px
+#price {
+	background-color:#ff7700
 		}
-
-.lime {
-	color:#ffffff;
-	background-color:#00ff00
+#vitya {
+	background-color:#ff77ff
 		}
-.pink {
-	color:#cccccc;
-	background-color:#ff7777
-		}
-.assure {
-	color:#ffff00;
-	background-color:#77ffff
-		}
-.yellow {color:#00ff00;
+#gallery {
 	background-color:#ffff00
+		}
+[href="catalog.html"] {
+	color:#00ffff
 		}
