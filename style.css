@@ -1,35 +1,30 @@
-head {
-	link rel="shortcut icon" href="sci.png"
-		}
 body {
-	color: #ffffff;
-	font-size: 20px;
-	font-family: Comic sans MS, Arial;	
-	text-align: center
+	background: #00ff00 url(background-2.png)
 		}
-.header {
-	width: 100%;
-	height: 150px;
-	border: 3px solid #0000ff;
-	font-weight: bold;
-	background: url(bg-h.png)
+div {
+	font-size:50px;
+	width:150px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 30px
 		}
-.sidebar {
-	float: right;
-	width: 30%;
-	height: 600px;
-	border: 3px solid #0000ff;
-	background: url(bg-s.png)
+img {
+	float:right;
+	height:100px
 		}
-.content {
-	width: 70%;
-	height: 300px;
-	border: 3px solid #000000;
-	background: url(bg-c.png)
+
+.lime {
+	color:#ffffff;
+	background-color:#00ff00
 		}
-.footer {
-	width: 70%;
-	height: 150px;
-	border: 3px solid #333333;
-	background: url(bg-f.png)
+.pink {
+	color:#cccccc;
+	background-color:#ff7777
+		}
+.assure {
+	color:#ffff00;
+	background-color:#77ffff
+		}
+.yellow {color:#00ff00;
+	background-color:#ffff00
 		}
