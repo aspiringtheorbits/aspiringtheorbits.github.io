@@ -1,0 +1,72 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #042f36;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	margin-top: 20%;
+}
+
+.title{
+	width: 14ch;
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #ff9900;
+	animation: flashing-border 1.5s step-end infinite,
+		printed-text 5s steps(14);
+}
+
+@keyframes flashing-border{
+	0%{
+		border-color: #ff9900;
+	}
+
+	50%{
+		border-color: transparent;
+	}
+
+	100%{
+		border-color: #ff9900;
+	}
+}
+
+@keyframes printed-text{
+	from{
+		width: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
