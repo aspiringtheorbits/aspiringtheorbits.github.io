@@ -1,0 +1,21 @@
+body{
+	text-align: center;
+	font-family: Comic Sans MS, Arial;
+	color: #773377;
+	background: linear-gradient(#ffaaff, #aaffff);
+	font-size: 30px;
+	text-align:center;
+}
+p{
+	width: 500px;
+	min-height: 100px;
+	margin: 50px auto 50px auto;
+	background: linear-gradient(#ffffaa, #aaffff);
+	border: 3px solid #773377;
+	border-radius: 10px;
+}
+a{
+	color: #995599;
+	font-size: 50px;
+	text-decoration: none;
+}
