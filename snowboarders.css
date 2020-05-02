@@ -1,0 +1,104 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Comic Sans Ms, Arial, Tahoma;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 15px 5px 15px #777777;
+}
+body{
+	background: #ccaaff  url(snowboarders-bg.png);
+}
+.header{
+	padding: 20px 30px;
+}
+h1{
+	margin: 20px auto;
+	font-size: 40px;
+	width: 50ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: printed-text 9s steps(50);
+}
+@keyframes printed-text{
+	from{
+		width: 0;
+	}
+}
+.slider{
+	position: absolute;
+	width: 50%;
+	height: 70%;
+	margin: 0 25%;
+	padding: 20px 20px;
+	border: 7px solid #ffeeee;
+	border-radius: 30px;
+	box-shadow: 15px 15px 15px #777777;
+	background: url(snowboarders-1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation: background-change 15s ease-in-out infinite;
+}
+@keyframes background-change{
+	0%{
+		background: url(snowboarders-1.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	20%{
+		background: url(snowboarders-2.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	40%{
+		background: url(snowboarders-3.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	60%{
+		background: url(snowboarders-4.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	80%{
+		background: url(snowboarders-5.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	100%{
+	
+	}
+}
+.scription{
+	border: 5px solid #eeeeff;
+	border-radius: 20px;
+	width: 40%;
+	height: 100px;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
