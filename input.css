@@ -1,0 +1,115 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Comic Sans MS, Arial, Tahoma;
+	font-size: 70px;
+	line-height: 450px;
+	color: #ffffff;
+	text-shadow: 20px 10px 20px #000000;
+}
+body{
+	background: url(baloons-bg.png);
+	background-size: cover;
+}
+.slider{
+	position: absolute;
+	width: 50%;
+	height: 450px;
+	margin: 30px 25% 0;
+	background: #0000ff;
+	border: 3px solid #00ffff;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+p{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	border: 3px solid #0077ff;
+	border-radius: 30px;
+}
+#p1{
+	background: url(baloons-1.jpg) center center no-repeat;
+	background-size: cover;
+}
+#p2{
+	background: url(baloons-2.jpg) center center no-repeat;
+	background-size: cover;
+}
+#p3{
+	background: url(baloons-3.jpg) center center no-repeat;
+	background-size: cover;
+}
+#p4{
+	background: url(baloons-4.jpg) center center no-repeat;
+	background-size: cover;
+}
+.navigation{
+	position: absolute;
+	width: 20%;
+	height: contain;
+	margin: 500px 40%;
+	padding: 30px;
+	background: #0000ff;
+	border: 3px solid #0077ff;
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.bar{
+	width: 30px;
+	height: 15px;
+	border: 3px solid #0077ff;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: .5s;	
+}
+.bar:hover{
+	border: 3px solid #00ffff;
+}
+.bar:active{
+	background: #00ffff;
+}
+input{
+	visibility: hidden;
+}
+input:checked + p{
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
