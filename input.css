@@ -30,6 +30,7 @@ p{
 	height: 100%;
 	border: 3px solid #0077ff;
 	border-radius: 30px;
+	visibility: hidden;
 }
 #p1{
 	background: url(baloons-1.jpg) center center no-repeat;
@@ -78,6 +79,7 @@ input{
 }
 input:checked + p{
 	position: absolute;
+	visibility: visible;
 }
 
 
