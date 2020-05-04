@@ -1,0 +1,118 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Comic Sans MS, Tahoma;
+	color: #ffffff;
+}
+body{
+	background: url(label-bg.jpg);
+	background-size: cover;
+}
+.slider{
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	border: 7px solid #777777;
+	top: 30px;
+	right: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+.slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transition: .5s ease;
+}
+input{
+	position: relative;
+	visibility: hidden;
+}
+label{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	background: #999999;
+	border: 3px solid #555555;
+	top: 260px;
+	right: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: .5s ease;
+}
+label:hover{
+	background: #cccccc;
+}
+#r1:checked ~ #l1{
+	background: #dddddd;
+}
+#r1:checked ~ .slide{
+	background: url(label1.jpg);
+	background-size: cover;
+}
+#r1:checked ~ #l1{
+	background: #dddddd;
+}
+#r1:checked ~ .slide{
+	background: url(label1.jpg);
+	background-size: cover;
+}
+#r2:checked ~ #l2{
+	background: #dddddd;
+}
+#r2:checked ~ .slide{
+	background: url(label2.jpg);
+	background-size: cover;
+}
+#r3:checked ~ #l3{
+	background: #dddddd;
+}
+#r3:checked ~ .slide{
+	background: url(label3.jpg);
+	background-size: cover;
+}
+#r4:checked ~ #l4{
+	background: #dddddd;
+}
+#r4:checked ~ .slide{
+	background: url(label4.jpg);
+	background-size: cover;
+}
+#r5:checked ~ #l5{
+	background: #dddddd;
+}
+#r5:checked ~ .slide{
+	background: url(label5.jpg);
+	background-size: cover;
+}
+#r6:checked ~ #l6{
+	background: #dddddd;
+}
+#r6:checked ~ .slide{
+	background: url(label6.jpg);
+	background-size: cover;
+}
+#r7:checked ~ #l7{
+	background: #dddddd;
+}
+#r7:checked ~ .slide{
+	background: url(label7.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
