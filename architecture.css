@@ -1,182 +1,93 @@
 ﻿*{
 	margin: 0;
 	padding: 0;
-	color: #ffffff;
-	font-family: Comic Sans MS, Arial, Tahoma;
-	text-align: center;
-	box-sizing: border-box;
 }
 body{
-	background: #553355;
+	font-family: Comic Sans MS, Arial;
 }
-.header{
-	position: fixed;
-	width: 40%;
-	height: 150px;
-	line-height: 150px;
-	text-transform: uppercase;
-	text-shadow: 15px 5px 15px #000000;
-	background: linear-gradient(#997799, #553355);
-	opacity: .9;
-	top: 40px;
-	right: 20px;
-	z-index: 2;
-}
-.text{
-	position: absolute;
-	width: 40%;
-	height: contain;
-	top: 170px;
-	right: 20px;
-	line-height: 30px;
-	font-size: 23px;
-	text-shadow: 10px 5px 15px #000000;
-	text-align: justify;
-	padding: 20px;
-}
-h2{
-	font-size: 26px;
-}
-a{
-	text-decoration: none;
-	transition: .5s;
-}
-a:hover{
-	font-size: 30px;
-}
-.slider{
-	width: 700px;
-	height: 550px;
-	border: 5px solid #775577;
-	border-radius: 70px;
-	position: fixed;
-	top: 40px;
-	left: 50px;
-	overflow: hidden;
-	box-shadow: 10px 5px 10px #000000;
-}
-.navigation{
-	position: absolute;
+.nav{
+	width: 100%;
+	height: 80px;
+	padding-left: 10px;
+	font-size: 25px;
+	background: #005555;
 	display: flex;
-	bottom: 20px;
-	left: 50%;
-	transform: translateX(-50%);
+	line-height: 80px;
+	border-bottom: 7px solid #003333;
+	color: #ffffaa;
+	text-shadow: 3px 3px 6px #331100;
+	position: fixed;
+	margin-top: -80px;
+	text-align: center;
+	justify-content: space-around;
+}
+.nav a{
+	margin-top: 15px;
+}
+.block{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 20px;
+	background: #ff9900;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	text-shadow: 3px 3px 6px #331100;
+}
+.background-1{
+	background-image: url(architecture-bg.jpg);
+	margin-top: 80px;
+}
+.background-2{
+	background-image: url(stairs-bg.jpg);
+}
+.background-3{
+	background-image: url(road-bg.jpg);
+}
+.block-1{
+	background-image: url(architecture.jpg);
+}
+.block-2{
+	background-image: url(stairs.jpg);
+}
+.block-3{
+	background-image: url(road.jpg);
+}
+.background{
+	width: 100%;
+	height: 400px;
+	background-size: 1920px 1080px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 p{
-	position: absolute;
-	bottom: 20px;
-	left: 20px;
+	margin-top: 20px;	
+	width: 300px;
+	height: 50px;
+	border: 3px solid #ffffff;
+	border-radius: 10px;
 	text-align: center;
-	font-size: 23px;
-	width: 30%;
-	height: contain;
-	padding: 10px;
-	border-radius: 50px;
-	background: #000000;
-	opacity: .5;
-	visibility: hidden;
 }
-.bar{
-	position: relative;
-	width: 20px;
-	height: 7px;
-	margin: 3px;
-	cursor: pointer;
-	background: #ffffff;
-	border-radius: 3px;
-	opacity: .7;
-	transition: all .5s ease;
+a{
+	color: #ffffff;
+	text-shadow: 3px 3px 6px #331100;
+	text-decoration: none;
+	line-height: 50px;
 }
-.bar:hover{
-	opacity: .9;
-	transform: scale(1.1);
-	transition: all .5s ease;
-}
-
-.slides{
-	width: 800%;
-	height: 100%;
-	display: flex;
-	transition: 0.5s ease;
-}
-.slide{
-	width: 12.5%;
-}
-.slide img{
-	width: 100%;
-	height: 100%;
-}
-#r1:checked ~ .slides{
-	margin-left: 0;
-}
-#r1:checked ~ #p1{
-	visibility: visible;
-}
-#r2:checked ~ .slides{
-	margin-left: -100%;
-}
-#r2:checked ~ #p2{
-	visibility: visible;
-}
-#r3:checked ~ .slides{
-	margin-left: -200%;
-}
-#r3:checked ~ #p3{
-	visibility: visible;
-}
-#r4:checked ~ .slides{
-	margin-left: -300%;
-}
-#r4:checked ~ #p4{
-	visibility: visible;
-}
-#r5:checked ~ .slides{
-	margin-left: -400%;
-}
-#r5:checked ~ #p5{
-	visibility: visible;
-}
-#r6:checked ~ .slides{
-	margin-left: -500%;
-}
-#r6:checked ~ #p6{
-	visibility: visible;
-}
-#r7:checked ~ .slides{
-	margin-left: -600%;
-}
-#r7:checked ~ #p7{
-	visibility: visible;
-}
-#r8:checked ~ .slides{
-	margin-left: -700%;
-}
-#r8:checked ~ #p8{
-	visibility: visible;
-}
-input{
+span{
 	position: absolute;
-	visibility: hidden;
+	width: 100%;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	color: #ffffcc;
+	text-shadow: 3px 3px 6px #331100;
+	font-size: 70px;
+	box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
