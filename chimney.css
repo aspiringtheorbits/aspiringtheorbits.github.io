@@ -19,8 +19,8 @@ body{
 	position: absolute;
 	width: 90%;
 	height: 70px;
-	top: 220px;
-	left: 30px;
+	top: 230px;
+	left: 70px;
 	text-align: right;
 	font-size: 20px;
 	color: #ffffff;
@@ -29,11 +29,14 @@ body{
 }
 h1{
 	text-transform: uppercase;
+	text-align: left;
+}
+.smaller{
+	font-size: 25px;
 }
 .navigation{
 	position: absolute;
-	top: -50px;
-	left: 200px;
+	left: 370px;
 	display: flex;
 	transform: skewY(15deg);
 }
@@ -63,6 +66,8 @@ a{
 	text-decoration: none;
 }
 .contacts{
+	position: relative;
+	top: -35px;
 }
 .contacts:hover{
 	color: #ffffcc;
@@ -75,15 +80,32 @@ a{
 	font-size: 25px;
 	transition: .7s;
 }
+.main{
+	position: fixed;
+	margin: 210px 5%;
+	width: 90%;
+	height: 400px;
+	padding: 30px;
+	background:  #ffeebb;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+	opacity: .9;
+}
+.text{
+	position: relative;
+	width: 50%;
+	height: 350px;
+	margin-right: 20px;
+	padding-right: 20px;
+	overflow: auto;
+}
 .slider{
-	position: absolute;
+	position: relative;
 	height: 350px;
 	width: 500px;
-	top: 530px;
-	right: 70px;
 	border: 5px solid #000000;
-	color: #000000;
-	transform: skewY(15deg);
 	display: flex;
 	overflow: hidden;
 }
@@ -101,6 +123,7 @@ label{
 	top: 300px;
 	margin-left: 20px;
 	cursor: pointer;
+	z-index: 2;
 }
 label:hover{
 	background: #ff9900;
@@ -112,7 +135,6 @@ label:hover{
 	width: 500%;
 	height: 100%;
 	display: flex;
-	z-index: -1;
 }
 img{
 	position: relative;
@@ -154,29 +176,33 @@ img{
 	margin-left: -400%;
 	transition: .7s;
 }
-.main{
-	position: fixed;
-	top: 200px;
-	left: 5%;
-	width: 50%;
-	height: 450px;
-	padding: 30px;
-	background:  #ffeebb;
-	font-size: 20px;
-	overflow: scroll;
-	text-align: justify;
-	opacity: .9;
+::-webkit-scrollbar{
+	width: 7px;
 }
-::-webkit-scrollbar { width: 3px; height: 3px;}
-::-webkit-scrollbar-button {  background-color: #666; }
-::-webkit-scrollbar-track {  background-color: #999;}
-::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
-::-webkit-scrollbar-corner { background-color: #999;}}
-::-webkit-resizer { background-color: #666;}
+::-webkit-scrollbar-button{
+	background-color: #ffff00;
+}
+::-webkit-scrollbar-track-piece{
+	background-color: #ffffaa;
+}
+::-webkit-scrollbar-thumb{
+	height: 50px;
+	background-color: #ff9933;
+	border-radius: 7px;
+}
 
-
-
+@media screen and (max-width: 900px){
+	.main{
+		display: block;
+	}
+	.slider{
+		height: 210px;
+		width: 300px;
+	}
+	.text{
+		font-size: 12px;
+	}
+}
 
 
 
